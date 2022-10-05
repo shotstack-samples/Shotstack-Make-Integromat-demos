@@ -1,0 +1,215 @@
+{
+    "timeline": {
+        "soundtrack": {
+            "src": "https://cdn.pixabay.com/audio/2022/02/21/audio_4e7e25d719.mp3",
+            "effect": "fadeOut"
+        },
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">Happy Birthday</p>",
+                            "css": "p { color: #9c1111; font-size: 95px; font-family: Arapey; text-align: center }",
+                            "width": 620,
+                            "height": 180
+                        },
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": 0.029,
+                            "y": 0.229
+                        },
+                        "position": "center",
+                        "start": 1,
+                        "length": 4,
+                        "effect": "zoomInSlow",
+                        "transition": {
+                            "in": "wipeRight",
+                            "out": "wipeLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">Here's a small gift from us to celebrate your special day</p>",
+                            "css": "p { color: #9c1111; font-size: 55px; font-family: Arapey; text-align: left }",
+                            "width": 695,
+                            "height": 180
+                        },
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": -0.096,
+                            "y": 0.264
+                        },
+                        "position": "center",
+                        "length": 7,
+                        "start": 5,
+                        "transition": {
+                            "in": "slideRight",
+                            "out": "slideLeft"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">{{FIRST_NAME}}</p>",
+                            "css": "p { color: #880c0c; font-size: 95px; font-family: Arapey; text-align: center }",
+                            "width": 620,
+                            "height": 180
+                        },
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": 0.03,
+                            "y": 0.044
+                        },
+                        "position": "center",
+                        "start": 1.5,
+                        "length": 3.5,
+                        "effect": "zoomInSlow",
+                        "transition": {
+                            "in": "wipeRight",
+                            "out": "wipeLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">50% OFF</p>",
+                            "css": "p { color: #880c0c; font-size: 140px; font-family: Roboto Black; text-align: center }"
+                        },
+                        "start": 5.5,
+                        "length": 6.5,
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": -0.157,
+                            "y": 0.028
+                        },
+                        "position": "center",
+                        "transition": {
+                            "in": "wipeRight",
+                            "out": "wipeLeft"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">With love from  {{Your-Company}}</p>",
+                            "css": "p { color: #3c3436; font-size: 40px; font-family: Arapey; text-align: center }",
+                            "width": 620,
+                            "height": 180
+                        },
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": 0.019,
+                            "y": -0.11
+                        },
+                        "length": 3.25,
+                        "transition": {
+                            "in": "reveal",
+                            "out": "reveal"
+                        },
+                        "position": "center",
+                        "effect": "zoomInSlow",
+                        "start": 1.75
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p data-html-type=\"text\">on your next purchase. Use {{discount-code}} at checkout</p>",
+                            "css": "p { color: #424242; font-size: 40px; font-family: Arapey; text-align: left }",
+                            "width": 575,
+                            "height": 180
+                        },
+                        "start": 5.5,
+                        "fit": "none",
+                        "scale": 1,
+                        "offset": {
+                            "x": -0.139,
+                            "y": -0.141
+                        },
+                        "position": "center",
+                        "length": 6.5,
+                        "transition": {
+                            "in": "wipeRight",
+                            "out": "wipeLeft"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://static.vecteezy.com/system/resources/previews/001/198/620/original/gift-png.png"
+                        },
+                        "start": 6,
+                        "length": 6,
+                        "offset": {
+                            "x": 0.275,
+                            "y": 0.016
+                        },
+                        "position": "center",
+                        "scale": 0.354,
+                        "fit": "crop",
+                        "transition": {
+                            "in": "slideLeft",
+                            "out": "slideRight"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://img.freepik.com/free-vector/minimalist-background-with-leaves_23-2148909131.jpg?w=1380&t=st=1662962859~exp=1662963459~hmac=da87b0769077be2be229176b9c80b4d34ea43ddb42a5f884061ba7f1a5ee00c7",
+                            "trim": 0
+                        },
+                        "start": 0,
+                        "transition": {
+                            "out": "fade",
+                            "in": "fade"
+                        },
+                        "length": 12,
+                        "scale": 1.5,
+                        "fit": "cover"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "size": {
+            "width": 1280,
+            "height": 720
+        },
+        "fps": 23.976,
+        "poster": {
+            "capture": 3
+        }
+    },
+    "merge": [
+        {
+            "find": "callback",
+            "replace": "https://hook.us1.make.com/jppidnapkiehvz29sywpujin8sp567vk"
+        }
+    ]
+}
